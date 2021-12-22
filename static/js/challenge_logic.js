@@ -1,4 +1,5 @@
 console.log("working");
+const API_KEY = "pk.eyJ1IjoiamF4MjAxIiwiYSI6ImNrd3cwMnZtcTA4bmkydnIxNXN1bmxndHIifQ.JCy4pUA-WBP2XVQPLvly7w";
 
 let streets = L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/streets-v11/tiles/{z}/{x}/{y}?access_token={accessToken}', {
 	attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery (c) <a href="https://www.mapbox.com/">Mapbox</a>',
